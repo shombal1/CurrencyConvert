@@ -1,0 +1,16 @@
+﻿<Window x:Class="Parsing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Parsing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="295" Width="800" MinWidth="800" MinHeight="295" MaxHeight="295" >
+    <Grid>
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="145,93,0,0" VerticalAlignment="Top" Width="190" />
+        <ComboBox x:Name="comboBox2" HorizontalAlignment="Right" Margin="0,93,10,0" VerticalAlignment="Top" Width="190" />
+        <TextBox x:Name="textBox1" PreviewTextInput="textBox1_PreviewTextInput" HorizontalAlignment="Left" Margin="10,93,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Height="22"/>
+        <TextBox x:Name="textBox2" IsReadOnly="True" HorizontalAlignment="Right" Margin="0,93,210,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="150" Height="22"/>
+        <Button Content="Convert" HorizontalAlignment="Center" Margin="0,149,0,0" VerticalAlignment="Top" Height="48" Width="84" Click="Button_Click"/>
+    </Grid>
+</Window>
